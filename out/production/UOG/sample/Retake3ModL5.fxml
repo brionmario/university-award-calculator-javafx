@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root minHeight="0.0" minWidth="0.0" prefHeight="342.0" prefWidth="438.0" style="-fx-background-color: #383838;" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Level5Controller">
+   <children>
+      <TextField fx:id="fieldRetake3Mod1L5" layoutX="337.0" layoutY="194.0" prefHeight="25.0" prefWidth="73.0" promptText="Enter Mark" />
+      <TextField fx:id="fieldRetake3Mod2L5" layoutX="337.0" layoutY="225.0" prefHeight="25.0" prefWidth="73.0" promptText="Enter Mark" />
+      <TextField fx:id="fieldRetake3Mod3L5" layoutX="337.0" layoutY="256.0" prefHeight="25.0" prefWidth="73.0" promptText="Enter Mark" />
+      <Button fx:id="btnRetake3L5" layoutX="190.0" layoutY="301.0" mnemonicParsing="false" onAction="#handlebtnRetake3L5" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: #ab4642;" text="Submit" textFill="WHITE" />
+      <ImageView fitHeight="26.0" fitWidth="319.0" layoutX="64.0" layoutY="21.0" translateY="15.0">
+         <image>
+            <Image url="@images/Shadow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="200.0" layoutX="124.0" layoutY="2.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5">
+         <image>
+            <Image url="@images/error%20TXT.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="198.0" layoutX="-44.0" layoutY="3.0" scaleX="0.3" scaleY="0.3" scaleZ="0.3">
+         <image>
+            <Image url="@images/error.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblErrorRetake3L5" alignment="TOP_CENTER" layoutX="108.0" layoutY="78.0" prefHeight="53.0" prefWidth="296.0" textAlignment="CENTER" textFill="#ff0900" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <effect>
+            <DropShadow height="9.14" offsetX="1.0" offsetY="1.0" radius="4.07" width="9.14" />
+         </effect>
+      </Label>
+      <Label fx:id="lblRetake3Mod1L5" layoutX="33.0" layoutY="198.0" textFill="#b8b8b8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="14.0" fitWidth="200.0" layoutX="124.0" layoutY="159.0" scaleX="1.2" scaleY="1.2" scaleZ="1.2">
+         <image>
+            <Image url="@images/retake%201.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblRetake3Mod2L5" layoutX="33.0" layoutY="229.0" textFill="#b8b8b8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblRetake3Mod3L5" layoutX="33.0" layoutY="260.0" textFill="#b8b8b8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</fx:root>

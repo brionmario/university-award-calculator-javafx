@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<fx:root minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="350.0" style="-fx-background-color: #383838;" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Level4Controller">
+   <children>
+      <ImageView fitHeight="26.0" fitWidth="319.0" layoutX="10.0" layoutY="21.0" translateY="15.0">
+         <image>
+            <Image url="@images/Shadow.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="200.0" layoutX="70.0" layoutY="2.0" scaleX="0.5" scaleY="0.5" scaleZ="0.5">
+         <image>
+            <Image url="@images/error%20TXT.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="198.0" layoutX="-44.0" layoutY="-1.0" scaleX="0.3" scaleY="0.3" scaleZ="0.3">
+         <image>
+            <Image url="@images/error.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblError" alignment="TOP_CENTER" layoutX="97.0" layoutY="64.0" prefHeight="84.0" prefWidth="223.0" textAlignment="CENTER" textFill="#ff0900" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <effect>
+            <DropShadow height="9.14" offsetX="1.0" offsetY="1.0" radius="4.07" width="9.14" />
+         </effect>
+      </Label>
+   </children>
+</fx:root>
